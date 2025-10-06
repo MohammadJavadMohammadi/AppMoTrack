@@ -19,7 +19,7 @@ See AppMoTrack in action on the challenging MOT17 and MOT20 benchmarks. Notice t
 
 | MOT17-09 Sequence | MOT20-03 Sequence |
 | :---: | :---: |
-| ![AppMoTrack MOT17 Demo](./assets/mot17_demo.gif) | ![AppMoTrack MOT20 Demo](./assets/mot20_demo.gif) |
+| ![AppMoTrack MOT17 Demo](./assets/mot17_demo.mp4) | ![AppMoTrack MOT20 Demo](./assets/mot20_demo.gif) |
 
 ---
 
