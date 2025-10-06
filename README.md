@@ -80,8 +80,8 @@ pip install -r requirements.txt
 
 AppMoTrack relies on pre-trained IPCA and LDA models. Download them from the links below and place them in the `tracker/` directory.
 
-* **IPCA Model**: [Download ipca_model.joblib](https://drive.google.com/uc?export=download&id=YOUR_IPCA_FILE_ID)
-* **LDA Model**: [Download lda.pkl](https://drive.google.com/uc?export=download&id=YOUR_LDA_FILE_ID)
+* **IPCA Model**: [Download ipca_model.joblib](https://drive.google.com/uc?export=download&id=1-BF2D4Anoym-dRYjbYqPc1w1maJp7aH_)
+* **LDA Model**: [Download lda.pkl](https://drive.google.com/uc?export=download&id=1mLq2uegZ1YbqfwvHbKHtElCNkwLMcsKc)
 
 ### 3. Prepare Datasets and Detections
 
