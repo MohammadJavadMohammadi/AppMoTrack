@@ -1,0 +1,11 @@
+numpy
+scipy
+lap
+cython-bbox
+scikit-learn
+opencv-python-headless
+numba
+scikit-image
+joblib
+tqdm
+Pillow
