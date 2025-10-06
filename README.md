@@ -17,7 +17,7 @@ The official source code for our paper is available here:
 
 See AppMoTrack in action on the challenging MOT17 and MOT20 benchmarks. Notice the stable identity preservation even through heavy occlusion and crowded scenes—all running on a CPU.
 
-| MOT17-09 Sequence | MOT20-03 Sequence |
+| MOT17-09 Sequence | MOT20-02 Sequence |
 | :---: | :---: |
 | ![AppMoTrack MOT17 Demo](./assets/mot17_demo.gif) | ![AppMoTrack MOT20 Demo](./assets/mot20_demo.gif) |
 
