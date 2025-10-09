@@ -33,17 +33,17 @@ AppMoTrack's strength lies in its modular and synergistic pipeline. An object de
 
 AppMoTrack introduces five key innovations to achieve a superior balance between tracking accuracy and computational speed:
 
-1.  🧠 **Discriminative & Efficient Appearance Model**: We use a novel **IPCA-LDA pipeline** to extract compact yet highly discriminative appearance features. [cite_start]This ensures targets are clearly separable—even if they look similar—without requiring a GPU[cite: 3].
-2.  🔗 **Hierarchical Association Strategy**: A multi-stage matching strategy robustly handles associations. [cite_start]It first uses a blend of appearance and motion (Buffered IoU), then leverages **HSV color histograms** to resolve ambiguities in difficult cases like occlusions[cite: 4].
-3.  [cite_start]🎯 **Adaptive Matching Threshold**: A dynamic threshold, calculated on-the-fly using **k-means clustering** on the cost matrix, automatically adapts to different scenes and detection qualities, eliminating the need for manual tuning[cite: 5].
-4.  [cite_start]🤔 **Uncertainty-Aware Cost Function**: The Kalman filter's **covariance matrix** is integrated directly into the association cost, giving priority to tracks with higher certainty and systematically improving reliability against prediction errors[cite: 6].
-5.  [cite_start]⚡ **Adaptive Detection Usage (ADU)**: An intelligent frame-skipping module nearly **doubles the frame rate** by dynamically scheduling detector calls based on scene complexity, with minimal impact on accuracy[cite: 7].
+1. 🧠 **Discriminative & Efficient Appearance Model**: We use a novel **IPCA-LDA pipeline** to extract compact yet highly discriminative appearance features. This ensures targets are clearly separable—even if they look similar—without requiring a GPU.
+2. 🔗 **Hierarchical Association Strategy**: A multi-stage matching strategy robustly handles associations. It first uses a blend of appearance and motion (Buffered IoU), then leverages **HSV color histograms** to resolve ambiguities in difficult cases like occlusions.
+3. 🎯 **Adaptive Matching Threshold**: A dynamic threshold, calculated on-the-fly using **k-means clustering** on the cost matrix, automatically adapts to different scenes and detection qualities, eliminating the need for manual tuning.
+4. 🤔 **Uncertainty-Aware Cost Function**: The Kalman filter's **covariance matrix** is integrated directly into the association cost, giving priority to tracks with higher certainty and systematically improving reliability against prediction errors.
+5. ⚡ **Adaptive Detection Usage (ADU)**: An intelligent frame-skipping module nearly **doubles the frame rate** by dynamically scheduling detector calls based on scene complexity, with minimal impact on accuracy.
 
 ---
 
 ## 🏆 Performance Highlights
 
-AppMoTrack sets a new standard for CPU-based real-time MOT. [cite_start]All benchmarks were run on a standard **Intel(R) Xeon(R) CPU @ 2.20GHz** [cite: 350-351].
+AppMoTrack sets a new standard for CPU-based real-time MOT. All benchmarks were run on a standard **Intel(R) Xeon(R) CPU @ 2.20GHz**.
 
 ### **MOT17 Test Set**
 
@@ -99,7 +99,6 @@ python track.py
 ```
 
 The script will process the specified MOT sequence and save the tracking results in MOT format to the `output/` directory.
-
 
 ---
 
